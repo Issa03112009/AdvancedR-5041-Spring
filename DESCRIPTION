@@ -1,11 +1,17 @@
 Package: AdvancedRSpring
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Run two sample t test
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Issa Haddad
+Maintainer: The package maintainer <issa.s.haddad-1@ou.edu>
+Description: Description: Run 2 sample t test. Take 2 samples and confidence interval and return the p.value and ci
+    Print the results.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    kableExtra,
+    ggplot2
